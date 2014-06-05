@@ -1,6 +1,6 @@
 #Changing code formatting for cleaner more readability
 i1 = raw_input('Enter the first number: ')
-
+#While loop to hand bad inputs
 while not i1.isdigit():
     i1 = raw_input("Not a valid integer. Please enter the first integer: ")
 
@@ -8,7 +8,7 @@ i1 = int(i1)
 
 i2 = raw_input('Enter the second number: ')
 
-#since you cannot divide zero in anything, this while loops informs and reprompts user to enter another number
+#since you cannot divide zero into anything, this while loops informs and prompts user to enter another number
 while i2 == '0' or not i2.isdigit():
     if i2 == '0':
         i2 = raw_input("Cannot divide by zero. Please enter the second integer: ")
